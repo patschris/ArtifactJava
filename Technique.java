@@ -1,3 +1,6 @@
+/*
+ * Enumeration for Technique (OIL = 0, AQUARELLE = 1, TEMPERA = 2)
+ */
 public enum Technique {
 	OIL{
 		@Override

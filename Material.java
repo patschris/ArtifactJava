@@ -1,4 +1,6 @@
-
+/*
+ * Enumeration for Material (IRON = 0, STONE = 1, WOOD = 2)
+ */
 
 public enum Material {
 	IRON{
@@ -20,7 +22,7 @@ public enum Material {
 		}
 	};
 	public static Material getEnum(int x) {
-		switch(x){
+		switch(x) {
 			case 0:
 				return IRON;
 			case 1:

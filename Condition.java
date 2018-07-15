@@ -1,5 +1,6 @@
-
-
+/*
+ * Enumeration for Condition (BAD = 0, GOOD = 1, EXCELLENT = 2)
+ */
 public enum Condition {
 	BAD{
 		@Override

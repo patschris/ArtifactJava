@@ -1,5 +1,6 @@
-
-
+/*
+ * Enumeration for Movement (IMPRESSIONISM = 0, EXPRESSIONISM = 1, NATURALISM = 2)
+ */
 public enum Movement {
 	IMPRESSIONISM{
 		@Override
