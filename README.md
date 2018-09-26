@@ -12,7 +12,7 @@ where:
  - *cond*: The condition of the artifacts (0:Bad, 1:Good, 2:Excellent)
 
 **Makefile**
-- `make`: compile with default arguments
+- `make`: compile with default arguments (N=5, mvmt=1, cond 1)
 - `make clean`: delete the object files and the executable
 
 Written in Java 1.8, Ubuntu 16.04.3 LTS. 
